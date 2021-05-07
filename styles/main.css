@@ -11,12 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', serif;
-}
-
-.fas {
-  font-family: fontawesome;
-
+  font-family: 'Marvel', serif;
 }
 
 .portfolio {
@@ -84,12 +79,13 @@ body {
 }
 
 .content {
-  padding: 10px;
+  padding: 20px;
+
 }
 
 /* to refactor */
 .space-top-10{
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 .space-bottom-10{
@@ -107,15 +103,17 @@ header {
 
 /* hero */
 .hero-block {
-  padding: 40px;
-  background-color: #ccc;
+  padding: 50px;
+  background-color: lightgreen;
+  text-align: center;
+  
 }
 
 @media only screen and (min-width: 768px) {
   .hero-block {
     position: absolute;
-    top: 30%;
-    right: 25%;
+    top: 18%;
+    right: 18%;
   }
 }
 
@@ -150,15 +148,17 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
+  gap: 3px 3px;
   grid-template-areas:
     "Area1 Area2 Area3"
-    "Area1 Area2 Area4";
+    "Area4 Area5 Area6";
 }
 .area1 { grid-area: Area1; }
 .area2 { grid-area: Area2; }
 .area3 { grid-area: Area3; }
 .area4 { grid-area: Area4; }
+.area5 { grid-area: Area5; }
+.area6 { grid-area: Area6; }
 
 
 /* contact details */
